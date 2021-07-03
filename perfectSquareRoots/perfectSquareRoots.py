@@ -32,8 +32,10 @@
 def sqrt(n):
 	i, j, k = 0, -1, 0
 	while(k < n):
-		j+=2;	k+=j; i+=1
-	return(i)
+		j+=2; k+=j; i+=1
+	if (k==n):
+		return(i)
+	return("not possible")
 
 n = int(input("Please enter a number: "))
 print("Square root of " + str(n) + " is " + str(sqrt(n)) +".")
