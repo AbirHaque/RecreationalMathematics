@@ -6,7 +6,7 @@
 #
 #	Narcissistic Numbers:
 #
-#	Find integers that are the summ of their own digits raised to the power of the total number of digits in a given integer.
+#	Find integers that are the sum of their own digits raised to the power of the total number of digits in a given integer.
 #
 #	Integers that exist are called Narcissistic numbers [1].
 #	89 narcissistic numbers have been found, with the largest being:
